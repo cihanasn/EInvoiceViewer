@@ -33,6 +33,7 @@
             label1 = new Label();
             button2 = new Button();
             button3 = new Button();
+            button4 = new Button();
             SuspendLayout();
             // 
             // button1
@@ -73,19 +74,31 @@
             // 
             // button3
             // 
-            button3.Location = new Point(438, 60);
+            button3.Location = new Point(12, 71);
             button3.Name = "button3";
             button3.Size = new Size(94, 29);
             button3.TabIndex = 4;
             button3.Text = "PDF Oluştur";
             button3.UseVisualStyleBackColor = true;
+            button3.Visible = false;
             button3.Click += button3_Click;
+            // 
+            // button4
+            // 
+            button4.Location = new Point(438, 60);
+            button4.Name = "button4";
+            button4.Size = new Size(94, 29);
+            button4.TabIndex = 5;
+            button4.Text = "PDF Oluştur";
+            button4.UseVisualStyleBackColor = true;
+            button4.Click += button4_Click;
             // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(671, 112);
+            Controls.Add(button4);
             Controls.Add(button3);
             Controls.Add(button2);
             Controls.Add(label1);
@@ -105,5 +118,6 @@
         private Label label1;
         private Button button2;
         private Button button3;
+        private Button button4;
     }
 }
