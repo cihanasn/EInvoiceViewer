@@ -223,6 +223,7 @@ Start-Process -FilePath $edgePath -ArgumentList '--headless', '--disable-gpu', '
         }
 
         // https://wkhtmltopdf.org/downloads.html 7z Archive (XP/2003 or later)	64-bit indirin!
+        // git add EInvoiceViewer/wkhtmltox/bin/wkhtmltopdf.exe -f
         private void button4_Click(object sender, EventArgs e)
         {
             try
